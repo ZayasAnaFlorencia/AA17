@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Nuestro Catálogo</h1>
+    <p>Productos cargados en segundo plano con <code>fetch</code></p>
+  </header>
+
+  <main>
+    <!-- Mensaje mientras se cargan los datos -->
+    <p id="mensaje-carga">Cargando productos...</p>
+
+    <!-- Acá se insertan las tarjetas de productos por JS -->
+    <section id="contenedor-productos" class="grid-productos"></section>
+  </main>
+
+  <footer>
+    <p>Práctica de JS Vanilla: querySelector, addEventListener, fetch y async/await.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
