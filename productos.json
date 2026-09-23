@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Auriculares Bluetooth",
+    "descripcion": "Sonido envolvente y batería de 20 horas.",
+    "precio": 25999,
+    "imagen": "https://picsum.photos/seed/auriculares/300/200"
+  },
+  {
+    "id": 2,
+    "nombre": "Teclado Mecánico",
+    "descripcion": "Switches rojos, retroiluminado RGB.",
+    "precio": 41500,
+    "imagen": "https://picsum.photos/seed/teclado/300/200"
+  },
+  {
+    "id": 3,
+    "nombre": "Mouse Gamer",
+    "descripcion": "6400 DPI ajustables, ergonómico.",
+    "precio": 18900,
+    "imagen": "https://picsum.photos/seed/mouse/300/200"
+  },
+  {
+    "id": 4,
+    "nombre": "Monitor 24''",
+    "descripcion": "Full HD, 75Hz, panel IPS.",
+    "precio": 129999,
+    "imagen": "https://picsum.photos/seed/monitor/300/200"
+  },
+  {
+    "id": 5,
+    "nombre": "Webcam HD",
+    "descripcion": "1080p con micrófono incorporado.",
+    "precio": 22500,
+    "imagen": "https://picsum.photos/seed/webcam/300/200"
+  },
+  {
+    "id": 6,
+    "nombre": "Silla Gamer",
+    "descripcion": "Reclinable, soporte lumbar ajustable.",
+    "precio": 189999,
+    "imagen": "https://picsum.photos/seed/silla/300/200"
+  }
+]
