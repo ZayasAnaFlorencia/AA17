@@ -1,5 +1,5 @@
-// 1) Esperamos a que la página termine de cargar (evento "load")
-//    usando addEventListener, tal como pide la consigna.
+
+//    usando addEventListener
 window.addEventListener('load', () => {
   cargarProductos();
 });
@@ -50,8 +50,8 @@ function mostrarProductos(productos) {
     contenedor.appendChild(card);
   });
 
-  // 4) Delegación de eventos: un único addEventListener para todos los botones
-  //    "Agregar al carrito" que se generaron dinámicamente.
+  // un único addEventListener para todos los botones
+  
   contenedor.addEventListener('click', (evento) => {
     if (evento.target.matches('.btn-comprar')) {
       const boton = evento.target;
